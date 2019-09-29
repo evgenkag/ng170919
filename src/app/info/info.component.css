@@ -1,0 +1,10 @@
+:host {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.mat-card {
+    width: 100%;
+}

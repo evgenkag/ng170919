@@ -1,0 +1,14 @@
+<mat-card>
+    <mat-card-title>События</mat-card-title>
+    <mat-list>
+        <mat-list-item *ngFor="let elem of elements; index as i"
+                       [ngClass]="{'active': elem === activeElem}"
+                       (click)="setActive(elem)">
+            <img matListAvatar [src]="elem.img" [alt]="elem.title">
+            <div matLine>
+                <div>{{ elem.title }}</div>
+                <small>{{ elem.type }}</small>
+            </div>
+        </mat-list-item>
+    </mat-list>
+</mat-card>

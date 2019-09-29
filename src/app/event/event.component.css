@@ -1,0 +1,16 @@
+:host {
+    display: flex;
+    width: 100%;
+}
+
+.mat-card {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.mat-list-item:hover,
+.mat-list-item.active {
+    background: #eee;
+    cursor: pointer;
+}

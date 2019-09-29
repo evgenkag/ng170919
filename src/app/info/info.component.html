@@ -1,0 +1,23 @@
+<mat-card>
+    <mat-card-title>Информация</mat-card-title>
+    <mat-card-content>
+        <mat-list>
+            <mat-list-item>
+                <div matLine><strong>Рейтинг: </strong></div>
+                <small>{{ elem?.info.rate }}</small>
+            </mat-list-item>
+            <mat-list-item>
+                <div matLine><strong>Понравилось: </strong></div>
+                <small>{{ elem?.info.favorites }}</small>
+            </mat-list-item>
+            <mat-list-item>
+                <div matLine><strong>Рекомендуют: </strong></div>
+                <small>{{ elem?.info.recommendations }}</small>
+            </mat-list-item>
+            <mat-list-item>
+                <div matLine><strong>Дата: </strong></div>
+                <small>{{ elem?.info.date }}</small>
+            </mat-list-item>
+        </mat-list>
+    </mat-card-content>
+</mat-card>

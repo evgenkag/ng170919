@@ -1,0 +1,10 @@
+<p>Выберите событие, чтобы посмотреть подробную информацию:</p>
+<div class="grid">
+    <div class="grid-col">
+        <app-event [elements]="elements" (onChanged)="setActive($event)"></app-event>
+    </div>
+    <div class="grid-col">
+        <app-location [elem]="activeElem"></app-location>
+        <app-info [elem]="activeElem"></app-info>
+    </div>
+</div>
