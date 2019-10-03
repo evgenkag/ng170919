@@ -9,6 +9,7 @@
                 <div>{{ elem.title }}</div>
                 <small>{{ elem.type }}</small>
             </div>
+            <strong>{{ elem.price | currency:'RUB':'symbol-narrow':'0.0-0' }}</strong>
         </mat-list-item>
     </mat-list>
 </mat-card>

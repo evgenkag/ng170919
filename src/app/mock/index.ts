@@ -94,5 +94,119 @@ export const elements: IElement[] = [
             date: '20 ноября в 20:00'
         },
         type: 'Концерт'
+    },
+    {
+        img: 'assets/images/event-5.jpg',
+        title: 'Мельница',
+        desc: 'Юбилейная программа к 20-летию группы',
+        price: 1000,
+        location: {
+            title: 'БКЗ «Октябрьский»',
+            image: 'assets/images/location-5.jpg',
+            address: 'Санкт-Петербург, Лиговский пр., 6',
+            phone: 78122751300
+        },
+        info: {
+            rate: 87,
+            favorites: 788,
+            recommendations: 444,
+            date: '20 ноября в 20:00'
+        },
+        type: 'Концерт'
+    },
+    {
+        img: 'assets/images/event-6.jpg',
+        title: 'Александр Розенбаум',
+        desc: '',
+        price: 1000,
+        location: {
+            title: 'БКЗ «Октябрьский»',
+            image: 'assets/images/location-5.jpg',
+            address: 'Санкт-Петербург, Лиговский пр., 6',
+            phone: 78122751300
+        },
+        info: {
+            rate: 8.6,
+            favorites: 986,
+            recommendations: 554,
+            date: '29 декабря, 19:00'
+        },
+        type: 'Концерт'
+    },
+    {
+        img: 'assets/images/event-7.jpg',
+        title: 'Тина Модотти: Искусство. Любовь. Революция',
+        desc: 'Фотоавангард мексиканской художницы',
+        price: 500,
+        location: {
+            title: 'Музейно-выставочный центр «Росфото»',
+            image: 'assets/images/location-7.png',
+            address: 'Санкт-Петербург, Б.Морская, 35',
+            phone: 78123141214
+        },
+        info: {
+            rate: 7,
+            favorites: 457,
+            recommendations: 96,
+            date: 'до 17 ноября'
+        },
+        type: 'Выставка'
+    },
+    {
+        img: 'assets/images/event-8.jpg',
+        title: 'Макбет. Кино',
+        desc: 'Сумасшедший театр Юрия Бутусова, петербургская версия',
+        price: 1500,
+        location: {
+            title: 'Театр им. Ленсовета',
+            image: 'assets/images/location-8.jpg',
+            address: 'Санкт-Петербург, Владимирский просп., 12',
+            phone: +78127132191
+        },
+        info: {
+            rate: 7,
+            favorites: 124,
+            recommendations: 968,
+            date: ''
+        },
+        type: 'Спектакль'
+    },
+    {
+        img: 'assets/images/event-9.jpg',
+        title: 'Константин Сомов',
+        desc: 'Ретроспектива одного из главных участников «Мира искусства»',
+        price: 700,
+        location: {
+            title: 'Михайловский замок',
+            image: 'assets/images/location-9.jpg',
+            address: 'Санкт-Петербург, Садовая, 2',
+            phone: 78125705112
+        },
+        info: {
+            rate: 8,
+            favorites: 457,
+            recommendations: 845,
+            date: 'до 4 ноября'
+        },
+        type: 'Выставка'
+    },
+    {
+        img: 'assets/images/event-10.jpg',
+        title: 'Джокер',
+        desc: 'Хоакин Феникс в серьезной драме про безумного шута Готэма',
+        price: 350,
+        location: {
+            title: 'Кинотеатр Родина',
+            image: 'assets/images/location-10.png',
+            address: 'Санкт-Петербург, Караванная, 12',
+            phone: 78125716131
+        },
+        info: {
+            rate: 8.7,
+            favorites: 478,
+            recommendations: 457,
+            date: '3 октября 2019'
+        },
+        type: 'Кино'
     }
 ];
