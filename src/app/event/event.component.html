@@ -1,8 +1,13 @@
 <mat-card>
     <mat-card-title>События</mat-card-title>
+    <div>
+        <button *ngFor="let elemType of elements | menu" (click)="setActiveTab(elemType)">
+            {{ elemType }}
+        </button>
+    </div>
     <mat-list>
-        <mat-list-item *ngFor="let elem of elements; index as i"
-                       [ngClass]="{'active': elem === activeElem}"
+        <mat-list-item *ngFor="let elem of elements"
+                       [ngClass]="{'active': elem === activeElem, 'hidden': elem.type != elemType}"
                        (click)="setActive(elem)">
             <img matListAvatar [src]="elem.img" [alt]="elem.title">
             <div matLine>

@@ -8,6 +8,7 @@ import { EventComponent } from './event/event.component';
 import { LocationComponent } from './location/location.component';
 import { InfoComponent } from './info/info.component';
 import { PhonePipe } from './phone.pipe';
+import { MenuPipe } from './menu.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PhonePipe } from './phone.pipe';
     EventComponent,
     LocationComponent,
     InfoComponent,
-    PhonePipe
+    PhonePipe,
+    MenuPipe
   ],
   imports: [
     BrowserModule,

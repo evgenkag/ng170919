@@ -14,3 +14,7 @@
     background: #eee;
     cursor: pointer;
 }
+
+.hidden {
+    display: none !important;
+}
