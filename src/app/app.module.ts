@@ -7,13 +7,15 @@ import {SharedModule} from "./shared/shared.module";
 import { EventComponent } from './event/event.component';
 import { LocationComponent } from './location/location.component';
 import { InfoComponent } from './info/info.component';
+import { PhonePipe } from './phone.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     EventComponent,
     LocationComponent,
-    InfoComponent
+    InfoComponent,
+    PhonePipe
   ],
   imports: [
     BrowserModule,

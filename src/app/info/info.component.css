@@ -8,3 +8,7 @@
 .mat-card {
     width: 100%;
 }
+
+small {
+    white-space: nowrap;
+}

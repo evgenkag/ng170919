@@ -4,6 +4,6 @@
         <img [src]="elem?.location.image" [alt]="elem?.location.title" *ngIf="elem">
         <h4>{{ elem?.location.title }}</h4>
         <p><strong>Адрес:</strong> {{ elem?.location.address }}</p>
-        <p><strong>Телефон:</strong> {{ elem?.location.phone }}</p>
+        <p><strong>Телефон:</strong> {{ elem?.location.phone | phone }}</p>
     </mat-card-content>
 </mat-card>
