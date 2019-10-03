@@ -10,7 +10,7 @@ export class AppComponent {
     title = 'Курс по Angular 17.09';
 
     public elements: IElement[] = elements;
-    public activeElem: IElement;
+    public activeElem: IElement = elements[0];
 
     public setActive(elem: IElement) {
         this.activeElem = elem;

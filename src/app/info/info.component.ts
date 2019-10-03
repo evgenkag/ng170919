@@ -1,4 +1,4 @@
-import {Component, OnInit, Input} from '@angular/core';
+import {Component, Input} from '@angular/core';
 import {IElement} from "../mock/index";
 
 @Component({
@@ -6,13 +6,6 @@ import {IElement} from "../mock/index";
     templateUrl: './info.component.html',
     styleUrls: ['./info.component.css']
 })
-export class InfoComponent implements OnInit {
-    @Input() elem: IElement;
-
-    constructor() { }
-
-    ngOnInit() {
-
-    }
-
+export class InfoComponent {
+    @Input() elem!: IElement;
 }

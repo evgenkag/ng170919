@@ -7,12 +7,9 @@ import {IElement} from "../mock/index";
     styleUrls: ['./event.component.css']
 })
 export class EventComponent implements OnInit {
-    public activeElem: IElement;
-    @Input() elements: IElement[];
+    public activeElem!: IElement;
+    @Input() elements: IElement[] = [];
     @Output() onChanged = new EventEmitter<IElement>();
-
-    constructor() {
-    }
 
     ngOnInit() {
         this.setActive(this.elements[0]);

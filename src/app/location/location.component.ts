@@ -1,4 +1,4 @@
-import {Component, OnInit, Input} from '@angular/core';
+import {Component, Input} from '@angular/core';
 import {IElement} from "../mock/index";
 
 @Component({
@@ -6,13 +6,6 @@ import {IElement} from "../mock/index";
     templateUrl: './location.component.html',
     styleUrls: ['./location.component.css']
 })
-export class LocationComponent implements OnInit {
-    @Input() elem: IElement;
-
-    constructor(
-    ) { }
-
-    ngOnInit() {
-    }
-
+export class LocationComponent {
+    @Input() elem!: IElement;
 }
